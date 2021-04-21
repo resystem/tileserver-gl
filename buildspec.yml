@@ -26,5 +26,6 @@ phases:
       - sed -i 's/DUMMY_ENV/'$NODE_ENV'/g' Dockerrun.aws.json
 artifacts:
   files:
-    - Dockerrun.aws.json
-    - .ebextensions/*
+    - '*/**'
+    # - Dockerrun.aws.json
+    # - .ebextensions/*
