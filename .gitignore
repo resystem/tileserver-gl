@@ -6,3 +6,8 @@ light
 plugins
 config.json
 *.mbtiles
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
